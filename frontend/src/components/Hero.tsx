@@ -123,11 +123,12 @@ export function Hero() {
           );
         })}
       </motion.div>
-      {/* Scrims that keep the headline readable over bright artwork. The
-          horizontal one is strong on the left, where the text sits. */}
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-cream/70 via-transparent to-cream" />
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-cream via-cream/85 to-cream/10 sm:via-cream/80 lg:via-cream/65 lg:to-transparent" />
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-full bg-gradient-to-r from-cream to-transparent sm:w-2/3 lg:w-1/2" />
+      {/* One horizontal scrim: solid cream behind the text, then a short fade
+          to fully transparent so the artwork on the right stays untouched.
+          The solid band is wider on small screens, where text runs wider. */}
+      <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,#fff1e8_0%,#fff1e8_58%,rgba(255,241,232,0.6)_78%,rgba(255,241,232,0)_100%)] sm:bg-[linear-gradient(to_right,#fff1e8_0%,#fff1e8_46%,rgba(255,241,232,0.5)_64%,rgba(255,241,232,0)_82%)] lg:bg-[linear-gradient(to_right,#fff1e8_0%,#fff1e8_36%,rgba(255,241,232,0.45)_52%,rgba(255,241,232,0)_70%)]" />
+      {/* Light vertical blend into the page above and below. */}
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-cream/50 via-transparent to-cream" />
 
       <motion.div style={{ opacity: fade }} className="container-x relative z-10 pb-28 pt-6">
         <motion.div
