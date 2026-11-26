@@ -10,28 +10,28 @@ import { useAsync } from '../lib/hooks';
 // `lead` is the plain first line, `accent` the gradient second line.
 const HERO_SLIDES = [
   {
-    src: '/hero/hero-gnss-banner.png',
+    src: '/hero/hero-gnss-banner.webp',
     label: 'GNSS Receivers',
     alt: 'Satlab GNSS receivers and CORS reference station with satellite signal arcs',
     lead: 'Measure the world',
     accent: 'with precision',
   },
   {
-    src: '/hero/hero-total-stations-banner.png',
+    src: '/hero/hero-total-stations-banner.webp',
     label: 'Total Stations',
     alt: 'Total stations for accurate construction and engineering surveying',
     lead: 'Accurate surveying',
     accent: 'built to perform',
   },
   {
-    src: '/hero/hero-drones-banner.png',
+    src: '/hero/hero-drones-banner.webp',
     label: 'Survey Drones',
     alt: 'Surveyaan mapping drones for aerial surveying and photogrammetry',
     lead: 'Survey every site',
     accent: 'from the sky',
   },
   {
-    src: '/hero/hero-software-banner.png',
+    src: '/hero/hero-software-banner.webp',
     label: 'Survey Software',
     alt: 'Surveying and mapping software suites for CAD, GIS, and road design',
     lead: 'Precision data,',
