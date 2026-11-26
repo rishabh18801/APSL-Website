@@ -10,32 +10,32 @@ import { useAsync } from '../lib/hooks';
 // `lead` is the plain first line, `accent` the gradient second line.
 const HERO_SLIDES = [
   {
-    src: '/hero/hero-gnss-survey.png',
-    label: 'GNSS & Total Stations',
-    alt: 'GNSS RTK receiver and robotic total station surveying a highway corridor',
+    src: '/hero/hero-gnss-banner.png',
+    label: 'GNSS Receivers',
+    alt: 'Satlab GNSS receivers and CORS reference station with satellite signal arcs',
     lead: 'Measure the world',
     accent: 'with precision',
   },
   {
-    src: '/hero/hero-survey-drone.png',
+    src: '/hero/hero-total-stations-banner.png',
+    label: 'Total Stations',
+    alt: 'Total stations for accurate construction and engineering surveying',
+    lead: 'Accurate surveying',
+    accent: 'built to perform',
+  },
+  {
+    src: '/hero/hero-drones-banner.png',
     label: 'Survey Drones',
-    alt: 'Industrial survey drone performing aerial photogrammetry over terraced terrain',
+    alt: 'Surveyaan mapping drones for aerial surveying and photogrammetry',
     lead: 'Survey every site',
     accent: 'from the sky',
   },
   {
-    src: '/hero/hero-lidar-slam.png',
-    label: '3D SLAM & LiDAR',
-    alt: '3D laser scanner capturing point-cloud data of a cable-stayed bridge',
-    lead: 'Capture reality',
-    accent: 'in full 3D',
-  },
-  {
-    src: '/hero/hero-hydrography-usv.png',
-    label: 'Hydrography USV',
-    alt: 'Unmanned hydrographic survey vessel mapping bathymetric contours near a dam',
-    lead: 'Chart the waters',
-    accent: 'with confidence',
+    src: '/hero/hero-software-banner.png',
+    label: 'Survey Software',
+    alt: 'Surveying and mapping software suites for CAD, GIS, and road design',
+    lead: 'Precision data,',
+    accent: 'smarter mapping',
   },
 ];
 
