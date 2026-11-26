@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: apsl-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: apsl
+      POSTGRES_PASSWORD: apsl_dev_password
+      POSTGRES_DB: apsl
+    ports:
+      - "5434:5432"
+    volumes:
+      - apsl-pgdata:/var/lib/postgresql/data
+
+volumes:
+  apsl-pgdata:

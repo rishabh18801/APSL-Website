@@ -1,0 +1,1127 @@
+{
+  "categories": [
+    {
+      "slug": "gnss-receivers",
+      "name": "GNSS Receivers",
+      "description": "Survey-grade multi-constellation receivers for RTK, network RTK and static work."
+    },
+    {
+      "slug": "total-stations",
+      "name": "Total Stations",
+      "description": "Precise angle and distance measurement for construction and cadastral survey."
+    },
+    {
+      "slug": "levelling-instruments",
+      "name": "Levelling Instruments",
+      "description": "Automatic and digital levels for height transfer and levelling runs."
+    },
+    {
+      "slug": "theodolites",
+      "name": "Digital Theodolites",
+      "description": "Electronic digital theodolites for angle measurement and setting out."
+    },
+    {
+      "slug": "lidar-scanners",
+      "name": "LiDAR & SLAM Scanners",
+      "description": "Handheld and mobile laser scanning for fast, detailed 3D capture."
+    },
+    {
+      "slug": "survey-drones",
+      "name": "Survey Drones",
+      "description": "Surveyaan mapping drones for photogrammetry and aerial data capture."
+    },
+    {
+      "slug": "marine-water-resources",
+      "name": "Marine & Water Resources",
+      "description": "Echo sounders, sonar and unmanned survey boats for bathymetric work."
+    },
+    {
+      "slug": "echo-sounders",
+      "name": "Echo Sounders",
+      "description": "Single and dual-frequency echo sounders for depth measurement."
+    },
+    {
+      "slug": "surveying-mapping-software",
+      "name": "Surveying & Mapping Software",
+      "description": "AutoPlotter and AutoRoads software for plotting, design, estimation and GIS."
+    }
+  ],
+  "products": [
+    {
+      "slug": "sdt2-electronic-digital-theodolite",
+      "name": "SDT2 Electronic Digital Theodolite",
+      "cat": "theodolites",
+      "brand": "Satlab",
+      "short": "The SDT2 Electronic Digital Theodolite is listed by APSL as an electronic angle-measurement instrument. Theodolites are used to measure horizontal and vertical angles and are commonly applied in alignment, traverse, building layout, road and infrastructure setting-out, structural positioning and general engineering surveys. Designed for horizontal and vertical angle measurement in engineering surveys.",
+      "desc": "## Product Overview\n\nThe SDT2 Electronic Digital Theodolite is listed by APSL as an electronic angle-measurement instrument. Theodolites are used to measure horizontal and vertical angles and are commonly applied in alignment, traverse, building layout, road and infrastructure setting-out, structural positioning and general engineering surveys. An electronic model displays measured angles digitally, helping field operators read and record angular observations. The SDT2 is listed by APSL with a quoted price and minimum order quantity, but the public product information reviewed does not provide a complete technical specification table. Angular accuracy, display resolution, telescope magnification, minimum focus, compensator or levelling features, optical plummet, battery life, environmental protection and data output should be Get in touch with us ed before purchase. A theodolite measures angles\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Instrument type",
+          "Electronic digital theodolite"
+        ],
+        [
+          "Applications",
+          "Engineering, cadastral and topographic surveys"
+        ],
+        [
+          "Dimensions",
+          "165 × 318 × 157 mm"
+        ],
+        [
+          "Colour",
+          "Green and white"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/sdt2-electronic-digital-theodolite.png"
+      ]
+    },
+    {
+      "slug": "sdl1-digital-level",
+      "name": "SDL1 Digital Level",
+      "cat": "levelling-instruments",
+      "brand": "Satlab",
+      "short": "The SDL1 Digital Level is listed by APSL as a digital levelling instrument. Digital levels are used to determine height differences and elevations by observing a compatible coded levelling staff and electronically interpreting the staff pattern. Suitable for elevation measurement and construction levelling.",
+      "desc": "## Product Overview\n\nThe SDL1 Digital Level is listed by APSL as a digital levelling instrument. Digital levels are used to determine height differences and elevations by observing a compatible coded levelling staff and electronically interpreting the staff pattern. Compared with conventional optical reading, a digital workflow can reduce manual reading and transcription effort and can help standardise the recording of levelling observations, depending on the instrument'\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Instrument type",
+          "Digital levelling instrument"
+        ],
+        [
+          "Measurement method",
+          "Electronic reading of compatible coded staff"
+        ],
+        [
+          "Applications",
+          "Precise levelling and elevation measurement"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/sdl1-digital-level.png"
+      ]
+    },
+    {
+      "slug": "satlab-sal32-automatic-level",
+      "name": "Satlab SAL32 Automatic Level",
+      "cat": "levelling-instruments",
+      "brand": "Satlab",
+      "short": "The Satlab SAL32 Automatic Level is an optical surveying instrument designed for determining differences in elevation between points. Automatic levels use an internal compensator to establish a horizontal line of sight after the instrument has been approximately levelled, allowing surveyors and construction teams to take staff readings for levelling operations. Suitable for elevation measurement and construction levelling.",
+      "desc": "## Product Overview\n\nThe Satlab SAL32 Automatic Level is an optical surveying instrument designed for determining differences in elevation between points. Automatic levels use an internal compensator to establish a horizontal line of sight after the instrument has been approximately levelled, allowing surveyors and construction teams to take staff readings for levelling operations. Common applications include transferring benchmarks, checking formation and foundation levels, road and drainage works, earthwork control and general construction setting-out. APSL lists the SAL32 in its Levelling Instruments category and publishes a product price on its website. The public product information reviewed does not provide a complete optical specification table. Values such as magnification, objective aperture, minimum focus, compensator working range, levelling accuracy per kilometre, image orientation and water/dust protection should be verified from the official SAL32 datasheet. For procurement, Get in touch with us whether the package includes a carrying case, adjustment tools, plumb bob, tripod and levelling staff. Correct setup, stable tripod placement and appropriate staff-reading procedures remain important for achieving reliable field results.\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Instrument type",
+          "Automatic optical level"
+        ],
+        [
+          "Applications",
+          "Construction levelling, benchmark transfer, road and drainage works"
+        ],
+        [
+          "Levelling mechanism",
+          "Automatic compensator"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/satlab-sal32-automatic-level.png"
+      ]
+    },
+    {
+      "slug": "sls-1-mobile-laser-scanner",
+      "name": "SLS-1 Mobile Laser Scanner",
+      "cat": "lidar-scanners",
+      "brand": "Satlab",
+      "short": "The SLS-1 Mobile Laser Scanner is listed by APSL as a mobile mapping and laser-scanning system. Its product description refers to sensor fusion that provides location information, imagery and point-cloud data. Supports 3D capture, mapping and spatial-data workflows.",
+      "desc": "## Product Overview\n\nThe SLS-1 Mobile Laser Scanner is listed by APSL as a mobile mapping and laser-scanning system. Its product description refers to sensor fusion that provides location information, imagery and point-cloud data. Mobile laser scanning is used to capture the geometry of roads, corridors, infrastructure and built environments while the sensor platform moves through the area. The resulting dataset can support 3D documentation, asset inventory, measurement, mapping and engineering analysis. APSL identifies a metal construction and industrial use. A complete mobile mapping workflow depends on the scanner payload, positioning sensors, camera arrangement, calibration, trajectory processing and point-cloud software. The public product page does not provide verified values for laser range, point rate, relative or absolute accuracy, vehicle/wearable mounting configuration, camera resolution, GNSS/IMU specifications or supported output formats. For these details before procurement, Get in touch with us . Get in touch with us the intended mounting platform, operating speed, calibration requirements, post-processing software and deliverables to ensure the SLS-1 configuration matches the project scope.\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Product type",
+          "Mobile laser-scanning / mapping system"
+        ],
+        [
+          "Sensor capability",
+          "Location, imagery and point-cloud data capture"
+        ],
+        [
+          "Applications",
+          "Road, corridor, infrastructure and built-environment mapping"
+        ],
+        [
+          "Construction",
+          "Metal (APSL listing)"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/sls-1-mobile-laser-scanner.png"
+      ]
+    },
+    {
+      "slug": "cygnus-handheld-slam-scanner",
+      "name": "Cygnus Handheld SLAM Scanner",
+      "cat": "lidar-scanners",
+      "brand": "Satlab",
+      "short": "Cygnus Handheld SLAM Scanner is listed by APSL for professional lidar workflows. Supports 3D capture, mapping and spatial-data workflows.",
+      "desc": "## Product Overview\n\nCygnus Handheld SLAM Scanner is part of APSL Solutions' professional lidar range. It is intended for specialist field, engineering or geospatial workflows relevant to this product category. For the exact model configuration, compatibility, included accessories and current availability, Get in touch with us before ordering.\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Product type",
+          "Handheld SLAM laser scanner"
+        ],
+        [
+          "Applications",
+          "Industrial mapping, facility mapping and construction analytics"
+        ],
+        [
+          "Point rate",
+          "Up to 320,000 points/second (APSL listing)"
+        ],
+        [
+          "Accuracy",
+          "0.5–2 cm (APSL listing)"
+        ],
+        [
+          "Range",
+          "Up to 120 m (APSL listing)"
+        ],
+        [
+          "Field of view",
+          "360° × 285°"
+        ],
+        [
+          "Laser class",
+          "Class 1, eye-safe"
+        ],
+        [
+          "Processing",
+          "Real-time processing"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": true,
+      "images": [
+        "/uploads/cygnus-handheld-slam-scanner.png"
+      ]
+    },
+    {
+      "slug": "lixel-x1-handheld-slam-scanner",
+      "name": "Lixel X1 Handheld SLAM Scanner",
+      "cat": "lidar-scanners",
+      "brand": "Satlab",
+      "short": "The Lixel X1 Handheld SLAM Scanner is listed by APSL as a portable LiDAR/SLAM solution for capturing three-dimensional spatial data. SLAM (simultaneous localisation and mapping) technology combines laser scanning with positioning and motion information to estimate the scanner' Supports 3D capture, mapping and spatial-data workflows.",
+      "desc": "## Product Overview\n\nThe Lixel X1 Handheld SLAM Scanner is listed by APSL as a portable LiDAR/SLAM solution for capturing three-dimensional spatial data. SLAM (simultaneous localisation and mapping) technology combines laser scanning with positioning and motion information to estimate the scanner'\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Product type",
+          "Handheld LiDAR / SLAM scanner"
+        ],
+        [
+          "Technology",
+          "Simultaneous localisation and mapping (SLAM)"
+        ],
+        [
+          "Applications",
+          "3D mapping, topographic and engineering surveys"
+        ],
+        [
+          "Output",
+          "3D spatial data / point-cloud workflow"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/lixel-x1-handheld-slam-scanner.png"
+      ]
+    },
+    {
+      "slug": "es-224-dual-frequency-echo-sounder",
+      "name": "ES-224 Dual-Frequency Echo Sounder",
+      "cat": "marine-water-resources",
+      "brand": "Satlab",
+      "short": "The ES-224 Dual-Frequency Echo Sounder is listed by APSL in its Marine & Designed for marine, inland-water and hydrographic survey operations.",
+      "desc": "## Product Overview\n\nES-224 Dual-Frequency Echo Sounder is part of APSL Solutions' professional marine & water resources range. It is intended for specialist field, engineering or geospatial workflows relevant to this product category. For the exact model configuration, compatibility, included accessories and current availability, Get in touch with us before ordering.\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Product type",
+          "ES-224 Dual-Frequency Echo Sounder"
+        ],
+        [
+          "Applications",
+          "Professional marine & water resources applications"
+        ],
+        [
+          "Technical configuration",
+          "Refer to the official model datasheet"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/es-224-dual-frequency-echo-sounder.png"
+      ]
+    },
+    {
+      "slug": "hydroscan-side-scan-sonar",
+      "name": "HydroScan Side Scan Sonar",
+      "cat": "marine-water-resources",
+      "brand": "Satlab",
+      "short": "HydroScan Side Scan Sonar is listed by APSL for underwater searching, dredging-related work and industrial applications. Side-scan sonar uses acoustic beams directed to either side of a moving platform to create an image-like representation of the seabed and objects lying on or near it. Designed for marine, inland-water and hydrographic survey operations.",
+      "desc": "## Product Overview\n\nHydroScan Side Scan Sonar is listed by APSL for underwater searching, dredging-related work and industrial applications. Side-scan sonar uses acoustic beams directed to either side of a moving platform to create an image-like representation of the seabed and objects lying on or near it. This makes the technology useful for locating submerged objects, inspecting underwater structures, identifying seabed features and supporting marine construction or search operations. APSL describes a stainless-steel construction and a yellow-and-black finish. The exact sonar frequency, range, towfish or mounting arrangement, beam angle, resolution, cable length, navigation integration and data-recording software are not fully specified in the accessible public listing. These parameters strongly influence the system'\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "System type",
+          "Side-scan sonar"
+        ],
+        [
+          "Applications",
+          "Underwater search, seabed imaging, dredging and marine inspection"
+        ],
+        [
+          "Construction",
+          "Stainless steel (APSL listing)"
+        ],
+        [
+          "Colour",
+          "Yellow and black (APSL listing)"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/hydroscan-side-scan-sonar.png"
+      ]
+    },
+    {
+      "slug": "hydrobeam-m4-multi-beam-echo-sounder",
+      "name": "HydroBeam M4 Multi-Beam Echo Sounder",
+      "cat": "marine-water-resources",
+      "brand": "Satlab",
+      "short": "The HydroBeam M4 Multi-Beam Echo Sounder is listed by APSL for hydrographic surveying and marine measurement work. A multibeam echo sounder emits multiple acoustic beams across a swath beneath a survey vessel, collecting depth measurements over a wider area than a single-beam system. Designed for marine, inland-water and hydrographic survey operations.",
+      "desc": "## Product Overview\n\nThe HydroBeam M4 Multi-Beam Echo Sounder is listed by APSL for hydrographic surveying and marine measurement work. A multibeam echo sounder emits multiple acoustic beams across a swath beneath a survey vessel, collecting depth measurements over a wider area than a single-beam system. When combined with accurate positioning, heading, motion and sound-velocity information, the measurements can be processed into bathymetric point clouds, depth grids and seabed models. APSL identifies applications including pipeline surveys, dredging, hydrographic surveys, underwater archaeology, harbour surveys, reservoir-storage surveys, environmental research and rescue or salvage operations. These use cases require careful system integration and survey planning. The public APSL listing does not provide a complete technical specification table for beam count, frequency, swath angle, depth range, ping rate, accuracy, motion-sensor integration or data formats. Those details must be verified against the current HydroBeam M4 datasheet and the exact package offered. For Get in touch with us ation of whether the quotation includes transducer, positioning/heading, motion compensation, sound-velocity equipment and acquisition/processing software, Get in touch with us .\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "System type",
+          "Multibeam echo sounder"
+        ],
+        [
+          "Applications",
+          "Hydrographic survey, dredging, pipeline and harbour surveys, reservoir surveys, underwater archaeology"
+        ],
+        [
+          "Survey output",
+          "Swath bathymetry / seabed mapping workflow"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/hydrobeam-m4-multi-beam-echo-sounder.png"
+      ]
+    },
+    {
+      "slug": "njord-positioning-and-heading-gnss-receiver",
+      "name": "Njord Positioning And Heading GNSS Receiver",
+      "cat": "marine-water-resources",
+      "brand": "Satlab",
+      "short": "The Njord Positioning and Heading GNSS Receiver is listed by APSL in its Marine & Designed for marine, inland-water and hydrographic survey operations.",
+      "desc": "## Product Overview\n\nNjord Positioning And Heading GNSS Receiver is part of APSL Solutions' professional marine & water resources range. It is intended for specialist field, engineering or geospatial workflows relevant to this product category. For the exact model configuration, compatibility, included accessories and current availability, Get in touch with us before ordering.\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Product type",
+          "Njord Positioning And Heading GNSS Receiver"
+        ],
+        [
+          "Applications",
+          "Professional marine & water resources applications"
+        ],
+        [
+          "Technical configuration",
+          "Refer to the official model datasheet"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/njord-positioning-and-heading-gnss-receiver.png"
+      ]
+    },
+    {
+      "slug": "hydroboat-990-usv",
+      "name": "HydroBoat 990 USV",
+      "cat": "marine-water-resources",
+      "brand": "Satlab",
+      "short": "HydroBoat 990 USV is a compact unmanned surface vehicle listed by APSL for marine and water-resource surveying. Its catamaran-style hull is intended to provide a stable platform for remote data collection on rivers, lakes, reservoirs and other inland-water environments. Designed for marine, inland-water and hydrographic survey operations.",
+      "desc": "## Product Overview\n\nHydroBoat 990 USV is a compact unmanned surface vehicle listed by APSL for marine and water-resource surveying. Its catamaran-style hull is intended to provide a stable platform for remote data collection on rivers, lakes, reservoirs and other inland-water environments. APSL lists dimensions of approximately 1,035 × 560 × 345 mm and describes a yellow-and-black body with IP67 protection. The product imagery and description identify a front-mounted 360-degree omnidirectional camera position, twin rear ducted propulsion units, side carrying handles and a sealed upper hatch. A USV can be configured to carry hydrographic sensors such as an echo sounder, GNSS positioning equipment and communication hardware, allowing operators to collect bathymetric observations without placing a surveyor aboard the vessel. The exact sensor payload, endurance, operating range, speed, positioning accuracy, communications range and supported acquisition software are configuration-dependent and should be provided by APSL through Get in touch with us . Ask for a payload diagram and a complete bill of materials so that the vessel, navigation system, echo sounder and software requirements are clear before purchase.\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Vessel type",
+          "Unmanned surface vehicle (USV)"
+        ],
+        [
+          "Hull dimensions",
+          "1,035 × 560 × 345 mm"
+        ],
+        [
+          "Protection",
+          "IP67 (APSL listing)"
+        ],
+        [
+          "Hull design",
+          "Catamaran-style"
+        ],
+        [
+          "Camera",
+          "360° omnidirectional video"
+        ],
+        [
+          "Anti-collision range",
+          "5–30 m"
+        ],
+        [
+          "Material",
+          "Carbon fibre and rubber bumper"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": true,
+      "images": [
+        "/uploads/hydroboat-990-usv.png"
+      ]
+    },
+    {
+      "slug": "hydro-boat-1200",
+      "name": "Hydro Boat 1200",
+      "cat": "marine-water-resources",
+      "brand": "Satlab",
+      "short": "Hydro Boat 1200 is a remote-controlled survey vessel listed by APSL for hydrographic and water-resource applications. It is designed to carry out data-collection work on water bodies such as rivers, lakes and reservoirs, helping survey teams access areas where a conventional crewed boat may be less practical. Designed for marine, inland-water and hydrographic survey operations.",
+      "desc": "## Product Overview\n\nHydro Boat 1200 is a remote-controlled survey vessel listed by APSL for hydrographic and water-resource applications. It is designed to carry out data-collection work on water bodies such as rivers, lakes and reservoirs, helping survey teams access areas where a conventional crewed boat may be less practical. APSL describes a 360-degree omnidirectional camera, four antennas, an anticollision sensor and a rechargeable battery. Its listing also identifies an IP67 waterproof rating and a hull structure using carbon fibre with a rubber bumper. The published dimensions are 1,229 × 600 × 438 mm and the listed weight is 10 kg. APSL specifies a 200 kHz frequency and anticollision detection distance of 5–30 m, with stated resistance to third-level wind and second-level waves. Potential applications include bathymetric mapping, reservoir surveys, environmental monitoring, dam inspection and aquaculture-related work. For details of the echo sounder, GNSS receiver, telemetry system and acquisition software included in the quoted configuration, Get in touch with us\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Vessel type",
+          "Remote-controlled hydrographic survey boat"
+        ],
+        [
+          "Dimensions",
+          "1,229 × 600 × 438 mm"
+        ],
+        [
+          "Weight",
+          "10 kg"
+        ],
+        [
+          "Operating frequency",
+          "200 kHz (APSL listing)"
+        ],
+        [
+          "Anti-collision range",
+          "5–30 m"
+        ],
+        [
+          "Camera",
+          "360° omnidirectional video"
+        ],
+        [
+          "Protection",
+          "IP67"
+        ],
+        [
+          "Material",
+          "Carbon fibre and rubber bumper"
+        ],
+        [
+          "Wind / wave rating",
+          "Level 3 wind / Level 2 wave (APSL listing)"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/hydro-boat-1200.png"
+      ]
+    },
+    {
+      "slug": "satlab-es-224-echo-sounder",
+      "name": "Satlab ES-224 Echo Sounder",
+      "cat": "echo-sounders",
+      "brand": "Satlab",
+      "short": "The Satlab ES-224 Echo Sounder is listed by APSL as an industrial echo-sounding instrument. Echo sounders measure water depth by transmitting acoustic energy toward the bed and measuring the time taken for the reflected signal to return. Suitable for bathymetric measurement and hydrographic survey work.",
+      "desc": "## Product Overview\n\nThe Satlab ES-224 Echo Sounder is listed by APSL as an industrial echo-sounding instrument. Echo sounders measure water depth by transmitting acoustic energy toward the bed and measuring the time taken for the reflected signal to return. The resulting depth observations can support bathymetric surveys, inland-water mapping, reservoir studies, dredging support and hydrographic data collection, depending on the system configuration and survey method. APSL'\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Instrument type",
+          "Hydrographic echo sounder"
+        ],
+        [
+          "Measurement principle",
+          "Acoustic water-depth measurement"
+        ],
+        [
+          "Applications",
+          "Bathymetry, inland-water mapping and hydrographic surveys"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/satlab-es-224-echo-sounder.png"
+      ]
+    },
+    {
+      "slug": "surveyaan-surveying-and-mapping-drone",
+      "name": "Surveyaan Surveying And Mapping Drone",
+      "cat": "survey-drones",
+      "brand": "Surveyaan",
+      "short": "The Surveyaan Surveying and Mapping Drone is listed by APSL as an industrial surveying and mapping UAV. A mapping drone is used to capture aerial imagery or sensor data over a defined area, which can then be processed into geospatial deliverables such as orthomosaics, digital surface models, terrain models, contours and three-dimensional site representations, depending on the payload and processing workflow. Designed for aerial surveying and geospatial data acquisition.",
+      "desc": "## Product Overview\n\nThe Surveyaan Surveying and Mapping Drone is listed by APSL as an industrial surveying and mapping UAV. A mapping drone is used to capture aerial imagery or sensor data over a defined area, which can then be processed into geospatial deliverables such as orthomosaics, digital surface models, terrain models, contours and three-dimensional site representations, depending on the payload and processing workflow. Typical project applications include land development, construction progress monitoring, corridor mapping, infrastructure inspection and large-area survey support. APSL lists a weight of 1.99 kg and describes the unit as grey with a plastic construction. The public listing does not provide a verified flight time, maximum range, wind resistance, camera or sensor payload, positioning method, ground sampling distance, RTK/PPK capability, flight-control system or regulatory classification. These are important purchasing details; Get in touch with us to request the official Surveyaan datasheet. The quoted package should also specify batteries, charger, controller, payload, software, training and after-sales support. Do not assume photogrammetry or LiDAR payloads are included unless stated in the quotation.\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Product type",
+          "Surveying and mapping UAV"
+        ],
+        [
+          "Weight",
+          "1.99 kg (APSL listing)"
+        ],
+        [
+          "Body material",
+          "Plastic (APSL listing)"
+        ],
+        [
+          "Colour",
+          "Grey (APSL listing)"
+        ],
+        [
+          "Applications",
+          "Aerial survey and geospatial data acquisition"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": true,
+      "images": [
+        "/uploads/surveyaan-surveying-and-mapping-drone.png"
+      ]
+    },
+    {
+      "slug": "satlab-tts2-total-station",
+      "name": "Satlab TTS2 Total Station",
+      "cat": "total-stations",
+      "brand": "Satlab",
+      "short": "The SatLab TTS2 Total Station is included in APSL' Suitable for topographic surveys, construction measurement and site setting-out.",
+      "desc": "## Product Overview\n\nSatlab TTS2 Total Station is part of APSL Solutions' professional total station range. It is intended for specialist field, engineering or geospatial workflows relevant to this product category. For the exact model configuration, compatibility, included accessories and current availability, Get in touch with us before ordering.\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Instrument type",
+          "Electronic total station"
+        ],
+        [
+          "Measurement",
+          "Electronic angle and distance measurement"
+        ],
+        [
+          "Applications",
+          "Topographic surveying, construction layout and setting-out"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/satlab-tts2-total-station.png"
+      ]
+    },
+    {
+      "slug": "satlab-stl10-total-station",
+      "name": "Satlab STL10 Total Station",
+      "cat": "total-stations",
+      "brand": "Satlab",
+      "short": "The SatLab STL10 Total Station is listed by APSL as an industrial surveying instrument with automatic operation. A total station is used to measure angles and distances and derive point coordinates for survey and construction work. Suitable for topographic surveys, construction measurement and site setting-out.",
+      "desc": "## Product Overview\n\nThe SatLab STL10 Total Station is listed by APSL as an industrial surveying instrument with automatic operation. A total station is used to measure angles and distances and derive point coordinates for survey and construction work. Typical tasks include establishing site control, collecting topographic details, measuring boundaries, setting out building or infrastructure positions and checking completed construction against design information. For project teams, the value of a total station lies in repeatable field measurements and the ability to transfer observations into surveying, CAD or engineering workflows. However, the public APSL listing does not provide the model'\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Instrument type",
+          "Electronic total station"
+        ],
+        [
+          "Measurement",
+          "Electronic angle and distance measurement"
+        ],
+        [
+          "Applications",
+          "Topographic surveying, construction layout and setting-out"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/satlab-stl10-total-station.png"
+      ]
+    },
+    {
+      "slug": "satlab-slt2-total-station",
+      "name": "Satlab SLT2 Total Station",
+      "cat": "total-stations",
+      "brand": "Satlab",
+      "short": "The SatLab SLT2 Total Station is part of APSL' Suitable for topographic surveys, construction measurement and site setting-out.",
+      "desc": "## Product Overview\n\nSatlab SLT2 Total Station is part of APSL Solutions' professional total station range. It is intended for specialist field, engineering or geospatial workflows relevant to this product category. For the exact model configuration, compatibility, included accessories and current availability, Get in touch with us before ordering.\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Instrument type",
+          "Electronic total station"
+        ],
+        [
+          "Measurement",
+          "Electronic angle and distance measurement"
+        ],
+        [
+          "Applications",
+          "Topographic surveying, construction layout and setting-out"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/satlab-slt2-total-station.png"
+      ]
+    },
+    {
+      "slug": "satlab-slt12-total-station",
+      "name": "SatLab SLT12 Total Station",
+      "cat": "total-stations",
+      "brand": "Satlab",
+      "short": "The SatLab SLT12 Total Station is listed by APSL in its total-station instrument range. A total station combines electronic angle measurement with electronic distance measurement to support coordinate-based surveying tasks. Suitable for topographic surveys, construction measurement and site setting-out.",
+      "desc": "## Product Overview\n\nThe SatLab SLT12 Total Station is listed by APSL in its total-station instrument range. A total station combines electronic angle measurement with electronic distance measurement to support coordinate-based surveying tasks. In the field, surveyors use this class of instrument to establish control, measure detail points, set out design positions and collect topographic observations for engineering and construction projects. The SLT12 is therefore relevant to land surveying, building and infrastructure layout, topographic surveys and construction measurement workflows. APSL'\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Instrument type",
+          "Electronic total station"
+        ],
+        [
+          "Measurement",
+          "Electronic angle and distance measurement"
+        ],
+        [
+          "Applications",
+          "Topographic surveying, construction layout and setting-out"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": true,
+      "images": [
+        "/uploads/satlab-slt12-total-station.png"
+      ]
+    },
+    {
+      "slug": "road-estimator-software",
+      "name": "Road Estimator Software",
+      "cat": "surveying-mapping-software",
+      "brand": "AutoPlotter",
+      "short": "Road Estimator is listed by APSL as a software product for road planning and construction estimation. It is intended to support engineering and estimating teams that need to organise road-project quantities and cost-related information during project preparation. Designed to support survey-data processing, mapping and engineering workflows.",
+      "desc": "## Product Overview\n\nRoad Estimator is listed by APSL as a software product for road planning and construction estimation. It is intended to support engineering and estimating teams that need to organise road-project quantities and cost-related information during project preparation. In a road-estimation workflow, users typically work from project measurements, item descriptions, quantities and applicable rates to prepare estimates and supporting schedules. For the exact calculation templates and estimation rules available in this product, Get in touch with us . The public listing identifies Windows compatibility, password protection and multi-user support. These features can be useful in an engineering office where estimates are prepared, reviewed and accessed by more than one authorised team member. APSL does not provide a complete public list of bill-of-quantity templates, rate-analysis functions, schedule formats, measurement rules, export options or regional schedule-of-rates libraries. Before purchase, request a demonstration using a sample road estimate and check whether the software supports the required departmental formats, item libraries, taxes, revisions, reports and licence-seat requirements by contacting us through Get in touch with us .\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Software type",
+          "Road planning and construction estimation software"
+        ],
+        [
+          "Applications",
+          "Road-project quantity and cost estimation"
+        ],
+        [
+          "Interface",
+          "Graphical user interface"
+        ],
+        [
+          "User capacity",
+          "Multi-user support (APSL listing)"
+        ],
+        [
+          "Security",
+          "Password-protected access"
+        ],
+        [
+          "Operating system",
+          "Windows"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/road-estimator-software.png"
+      ]
+    },
+    {
+      "slug": "autoplotter-canse-software",
+      "name": "AutoPlotter CanSE Software",
+      "cat": "surveying-mapping-software",
+      "brand": "AutoPlotter",
+      "short": "AutoPlotter CanSE is listed by APSL as a surveying and mapping software product focused on cadastral survey engineering and survey-data processing. It is intended for professionals working with land surveys and related engineering documentation, where field observations and coordinate information must be processed into consistent survey outputs. Designed to support survey-data processing, mapping and engineering workflows.",
+      "desc": "## Product Overview\n\nAutoPlotter CanSE is listed by APSL as a surveying and mapping software product focused on cadastral survey engineering and survey-data processing. It is intended for professionals working with land surveys and related engineering documentation, where field observations and coordinate information must be processed into consistent survey outputs. Cadastral workflows commonly involve parcel boundaries, survey control, measurements and supporting records\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Software type",
+          "Cadastral survey engineering and mapping software"
+        ],
+        [
+          "Primary application",
+          "Cadastral survey-data processing"
+        ],
+        [
+          "Workflow",
+          "Land-survey measurements and engineering documentation"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/autoplotter-canse-software.png"
+      ]
+    },
+    {
+      "slug": "autoplotter-gis-plus-software",
+      "name": "AutoPlotter GIS Plus Software",
+      "cat": "surveying-mapping-software",
+      "brand": "AutoPlotter",
+      "short": "AutoPlotter GIS Plus is a GIS-oriented software product listed by APSL for survey-data management and geographic information workflows. The public product information identifies compatibility with common data sources, including AutoCAD, DXF, ASCII, text and Shape files. Designed to support survey-data processing, mapping and engineering workflows.",
+      "desc": "## Product Overview\n\nAutoPlotter GIS Plus is a GIS-oriented software product listed by APSL for survey-data management and geographic information workflows. The public product information identifies compatibility with common data sources, including AutoCAD, DXF, ASCII, text and Shape files. This makes the software relevant to teams that need to bring together drawing files, coordinate records and GIS layers for review, editing and mapping. A typical GIS workflow involves importing spatial data, checking coordinate information, organising features into layers and preparing maps or other project outputs. AutoPlotter GIS Plus is positioned for surveying and mapping users who need a desktop environment for these activities. APSL describes a Windows graphical interface, but the public page does not provide a complete list of supported coordinate reference systems, database engines, geoprocessing tools, raster functions, topology rules or export formats. For capabilities in the exact release, Get in touch with us before procurement, particularly if the software must exchange data with a client'\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Software type",
+          "GIS and survey-data management software"
+        ],
+        [
+          "Data compatibility",
+          "AutoCAD, DXF, ASCII, text and SHP files (APSL listing)"
+        ],
+        [
+          "Interface",
+          "Windows graphical user interface"
+        ],
+        [
+          "Applications",
+          "Spatial data organisation, mapping and survey workflows"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/autoplotter-gis-plus-software.png"
+      ]
+    },
+    {
+      "slug": "autoplotter-advanced-software",
+      "name": "AutoPlotter Advanced Software",
+      "cat": "surveying-mapping-software",
+      "brand": "AutoPlotter",
+      "short": "AutoPlotter Advanced is presented by APSL as a surveying and civil-engineering software package for managing survey data and preparing engineering outputs. The listed application areas include earthwork, topographic mapping, road design, volume calculations and GIS generation. Designed to support survey-data processing, mapping and engineering workflows.",
+      "desc": "## Product Overview\n\nAutoPlotter Advanced is presented by APSL as a surveying and civil-engineering software package for managing survey data and preparing engineering outputs. The listed application areas include earthwork, topographic mapping, road design, volume calculations and GIS generation. These functions are relevant to engineering teams that need to transform field measurements into terrain information, project drawings and quantity-related outputs for design or construction planning. The product is listed for Windows 7, 8 and 10 and uses dongle-based licence protection. In a typical project workflow, field data is brought into the software, checked and organised, then used to create mapping or engineering deliverables. The precise calculation methods, supported instrument formats, CAD compatibility, coordinate-system tools, contouring functions and report templates depend on the installed version and licence. APSL'\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Software type",
+          "Surveying and civil-engineering software"
+        ],
+        [
+          "Applications",
+          "Topographic mapping, road design, earthwork and volume calculations"
+        ],
+        [
+          "GIS output",
+          "GIS data generation (APSL listing)"
+        ],
+        [
+          "File formats",
+          "DWG, DXF, CSV, LandXML, TXT (APSL listing)"
+        ],
+        [
+          "Export formats",
+          "PDF, CAD, Excel, KML (APSL listing)"
+        ],
+        [
+          "Operating system",
+          "Windows 7 / 8 / 10 (APSL listing)"
+        ],
+        [
+          "Licence security",
+          "USB dongle-based protection"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/autoplotter-advanced-software.png"
+      ]
+    },
+    {
+      "slug": "autoplotter-with-lis-software",
+      "name": "AutoPlotter with LIS Software",
+      "cat": "surveying-mapping-software",
+      "brand": "AutoPlotter",
+      "short": "AutoPlotter with LIS combines surveying and mapping functions with a land-information-system (LIS) workflow, according to APSL' Designed to support survey-data processing, mapping and engineering workflows.",
+      "desc": "## Product Overview\n\nAutoPlotter with LIS combines surveying and mapping functions with a land-information-system (LIS) workflow, according to APSL'\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Software type",
+          "Surveying, mapping and Land Information System (LIS) software"
+        ],
+        [
+          "Primary workflow",
+          "Land records and geospatial information management"
+        ],
+        [
+          "Applications",
+          "Survey data processing and mapping"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/autoplotter-with-lis-software.png"
+      ]
+    },
+    {
+      "slug": "autoroads-software",
+      "name": "AutoRoads Software",
+      "cat": "surveying-mapping-software",
+      "brand": "AutoPlotter",
+      "short": "AutoRoads is listed by APSL as a road-focused software product for road maintenance management and civil-engineering applications. It is intended for organisations involved in road infrastructure planning, engineering, maintenance and related technical administration. Designed to support survey-data processing, mapping and engineering workflows.",
+      "desc": "## Product Overview\n\nAutoRoads is listed by APSL as a road-focused software product for road maintenance management and civil-engineering applications. It is intended for organisations involved in road infrastructure planning, engineering, maintenance and related technical administration. The software can form part of a workflow in which road-related project information is organised, reviewed and used to support engineering decisions and maintenance planning. APSL describes the product for civil engineering and government-department users and lists Windows compatibility, a graphical interface, multi-user capability, password protection and multi-language support. These features are relevant where several authorised users need to work with road-project information under controlled access. The public product page does not provide a complete module-by-module feature list, supported road-design standards, file formats, calculation methods or version-specific system requirements. Those details should be obtained from APSL before describing the software as performing any particular design calculation or statutory-compliance function. Ask for a demonstration using a representative road project and check the licence scope, number of users, training and update arrangements with Get in touch with us .\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Software type",
+          "Road engineering and road-maintenance management"
+        ],
+        [
+          "Interface",
+          "Graphical user interface"
+        ],
+        [
+          "User capacity",
+          "Multi-user capability (APSL listing)"
+        ],
+        [
+          "Security",
+          "Password-protected access"
+        ],
+        [
+          "Language",
+          "Multi-language support (APSL listing)"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/autoroads-software.png"
+      ]
+    },
+    {
+      "slug": "autoplotter-professional-software",
+      "name": "AutoPlotter Professional Software",
+      "cat": "surveying-mapping-software",
+      "brand": "AutoPlotter",
+      "short": "AutoPlotter Professional is a desktop software solution listed by APSL for professional survey-data processing, mapping, plotting, road design and land-development work. The product description highlights batch file handling, integration with AutoCAD and other CAD software, and data import/export using formats such as CSV, TXT, DAT and DXF. Designed to support survey-data processing, mapping and engineering workflows.",
+      "desc": "## Product Overview\n\nAutoPlotter Professional is a desktop software solution listed by APSL for professional survey-data processing, mapping, plotting, road design and land-development work. The product description highlights batch file handling, integration with AutoCAD and other CAD software, and data import/export using formats such as CSV, TXT, DAT and DXF. It is intended to help survey and engineering teams convert field observations and drawing data into organised, editable project outputs. The published listing describes a graphical user interface, custom plotting, print-to-scale capability and multi-user support. Security features include licence-key protection and user authentication. APSL lists compatibility with Windows 7, 8, 10 and 11 and English-language support. The page also refers to perpetual or subscription licensing\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Software type",
+          "Surveying, mapping and CAD data-processing software"
+        ],
+        [
+          "Import / export formats",
+          "CSV, TXT, DAT, DXF (APSL listing)"
+        ],
+        [
+          "CAD integration",
+          "AutoCAD and other CAD software"
+        ],
+        [
+          "Interface",
+          "Graphical user interface"
+        ],
+        [
+          "Licensing security",
+          "Licence-key protection and user authentication"
+        ],
+        [
+          "User capacity",
+          "Multi-user support"
+        ],
+        [
+          "Operating system",
+          "Windows 7 / 8 / 10 / 11"
+        ],
+        [
+          "Language",
+          "English"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": true,
+      "images": [
+        "/uploads/autoplotter-professional-software.png"
+      ]
+    },
+    {
+      "slug": "satlab-eyr-gnss-receiver",
+      "name": "Satlab Eyr GNSS Receiver",
+      "cat": "gnss-receivers",
+      "brand": "Satlab",
+      "short": "The SatLab Eyr GNSS Receiver is presented by APSL as a handheld positioning device for field-based geospatial work. Its listing identifies a digital display and a stated battery backup of 12 to 14 hours. Suitable for surveying, mapping and geospatial positioning applications.",
+      "desc": "## Product Overview\n\nThe SatLab Eyr GNSS Receiver is presented by APSL as a handheld positioning device for field-based geospatial work. Its listing identifies a digital display and a stated battery backup of 12 to 14 hours. The handheld format is suited to mobile field activities where an operator needs a compact GNSS instrument for collecting or checking location information without carrying a larger survey receiver configuration. Potential use cases described by APSL include field surveying, geospatial mapping, construction planning, agriculture and utilities-related work. The practical accuracy and workflow capability depend on the receiver'\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Product type",
+          "Handheld GNSS receiver"
+        ],
+        [
+          "Display",
+          "Digital display"
+        ],
+        [
+          "Battery backup",
+          "12–14 hours (APSL listing)"
+        ],
+        [
+          "Applications",
+          "Surveying, mapping, construction, agriculture and utilities"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/satlab-eyr-gnss-receiver.png"
+      ]
+    },
+    {
+      "slug": "satlab-slx-1-gnss-receiver-cors",
+      "name": "Satlab SLX-1 GNSS Receiver CORS",
+      "cat": "gnss-receivers",
+      "brand": "Satlab",
+      "short": "The SatLab SLX-1 GNSS Receiver CORS, identified in APSL' Suitable for surveying, mapping and geospatial positioning applications.",
+      "desc": "## Product Overview\n\nSatlab SLX-1 GNSS Receiver CORS is part of APSL Solutions' professional gnss receiver range. It is intended for specialist field, engineering or geospatial workflows relevant to this product category. For the exact model configuration, compatibility, included accessories and current availability, Get in touch with us before ordering.\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Channels",
+          "555 (APSL listing)"
+        ],
+        [
+          "Product type",
+          "GNSS reference-station / CORS receiver"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/satlab-slx-1-gnss-receiver-cors.png"
+      ]
+    },
+    {
+      "slug": "satlab-sl700-gnss-receiver",
+      "name": "Satlab SL700 GNSS Receiver",
+      "cat": "gnss-receivers",
+      "brand": "Satlab",
+      "short": "The SatLab SL700 GNSS Receiver is listed by APSL as an industrial GNSS positioning device with a digital display and an approximate weight of 800 g. It is intended for professional users who need satellite-based positioning in applications such as construction, surveying, agriculture and mapping. Suitable for surveying, mapping and geospatial positioning applications.",
+      "desc": "## Product Overview\n\nThe SatLab SL700 GNSS Receiver is listed by APSL as an industrial GNSS positioning device with a digital display and an approximate weight of 800 g. It is intended for professional users who need satellite-based positioning in applications such as construction, surveying, agriculture and mapping. A digital display can help field operators view device status and positioning information during setup and data collection, while the portable form factor supports movement between survey locations. GNSS equipment is commonly used to establish or verify coordinates, collect geospatial features, support construction layout and capture field observations for GIS or CAD processing. The exact achievable accuracy depends on the receiver'\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Weight",
+          "Approximately 800 g (APSL listing)"
+        ],
+        [
+          "Display",
+          "Digital display"
+        ],
+        [
+          "Applications",
+          "Construction, surveying, agriculture and mapping"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/satlab-sl700-gnss-receiver.png"
+      ]
+    },
+    {
+      "slug": "satlab-sl900-gnss-receiver",
+      "name": "SatLab SL900 GNSS Receiver",
+      "cat": "gnss-receivers",
+      "brand": "Satlab",
+      "short": "The SatLab SL900 is a professional multi-constellation GNSS receiver designed for precise positioning in land surveying, mapping, hydrographic work and UAV base-station applications. APSL lists 1,760 channels and support for major satellite systems including GPS, GLONASS, BeiDou, Galileo, QZSS, IRNSS and SBAS. Suitable for surveying, mapping and geospatial positioning applications.",
+      "desc": "## Product Overview\n\nThe SatLab SL900 is a professional multi-constellation GNSS receiver designed for precise positioning in land surveying, mapping, hydrographic work and UAV base-station applications. APSL lists 1,760 channels and support for major satellite systems including GPS, GLONASS, BeiDou, Galileo, QZSS, IRNSS and SBAS. The receiver includes an integrated antenna and supports RTK, network RTK and high-precision static surveying workflows. APSL publishes horizontal/vertical accuracy figures for several modes: RTK at 6 mm + 0.5 ppm / 10 mm + 1 ppm\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Channels",
+          "1,760"
+        ],
+        [
+          "Satellite systems",
+          "GPS, GLONASS, BeiDou, Galileo, QZSS, IRNSS, SBAS"
+        ],
+        [
+          "RTK accuracy",
+          "H: 6 mm + 0.5 ppm; V: 10 mm + 1 ppm"
+        ],
+        [
+          "Network RTK accuracy",
+          "H: 8 mm + 0.5 ppm; V: 15 mm + 1 ppm"
+        ],
+        [
+          "Static accuracy",
+          "H: 2.5 mm + 0.1 ppm; V: 3.5 mm + 0.4 ppm"
+        ],
+        [
+          "Initialization time",
+          "2–8 seconds"
+        ],
+        [
+          "Protection",
+          "IP67; 2 m pole-drop resistance"
+        ],
+        [
+          "Antenna",
+          "Integrated"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": true,
+      "images": [
+        "/uploads/satlab-sl900-gnss-receiver.png"
+      ]
+    },
+    {
+      "slug": "differential-global-positioning-system",
+      "name": "Differential Global Positioning System",
+      "cat": "gnss-receivers",
+      "brand": "",
+      "short": "Differential Global Positioning System is listed by APSL for professional gnss receiver workflows. Suitable for surveying, mapping and geospatial positioning applications.",
+      "desc": "## Product Overview\n\nDifferential Global Positioning System is part of APSL Solutions' professional gnss receiver range. It is intended for specialist field, engineering or geospatial workflows relevant to this product category. For the exact model configuration, compatibility, included accessories and current availability, Get in touch with us before ordering.\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Product category",
+          "Differential GNSS / GPS positioning"
+        ],
+        [
+          "Typical applications",
+          "Surveying, mapping and geospatial data collection"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/differential-global-positioning-system.png"
+      ]
+    },
+    {
+      "slug": "gnss-receiver",
+      "name": "GNSS Receiver",
+      "cat": "gnss-receivers",
+      "brand": "",
+      "short": "The SatLab SL7 GNSS Receiver is presented by APSL as a lightweight industrial GNSS positioning unit for professionals who need portable satellite-based location data in the field. The product listing gives a weight of approximately 750 g and describes high GPS accuracy, long battery life and multi-constellation tracking. Suitable for surveying, mapping and geospatial positioning applications.",
+      "desc": "## Product Overview\n\nThe SatLab SL7 GNSS Receiver is presented by APSL as a lightweight industrial GNSS positioning unit for professionals who need portable satellite-based location data in the field. The product listing gives a weight of approximately 750 g and describes high GPS accuracy, long battery life and multi-constellation tracking. This combination is relevant to land surveyors, mapping teams, construction engineers and GIS personnel who need to carry positioning equipment between survey points and work locations. In a typical workflow, a GNSS receiver is used to acquire satellite observations and determine geographic positions for control, detail collection, site measurement or navigation. The SL7 listing positions the device for industrial use, including field surveying and mapping in both urban and remote environments. APSL does not publish a complete model-specific accuracy table, constellation-band list, IP rating, channel count or battery runtime on the listing. To obtain those model-specific values, Get in touch with us and request the manufacturer datasheet. Before purchase, Get in touch with us to verify controller compatibility, correction-service support and supplied accessories.\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Model",
+          "SatLab SL7 (product description)"
+        ],
+        [
+          "Weight",
+          "Approximately 750 g"
+        ],
+        [
+          "Application",
+          "Industrial positioning, surveying and mapping"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/gnss-receiver.png"
+      ]
+    },
+    {
+      "slug": "satlab-dgps",
+      "name": "Satlab DGPS",
+      "cat": "gnss-receivers",
+      "brand": "Satlab",
+      "short": "The Satlab DGPS is a professional GNSS positioning receiver intended for field teams that need reliable geospatial measurements across land-surveying, topographic mapping, as-built documentation, hydrographic work and UAV base-station applications. APSL lists an 800+ channel receiver architecture, integrated antenna, internal 4G connectivity and wireless communication through Bluetooth, Wi-Fi and NFC. Suitable for surveying, mapping and geospatial positioning applications.",
+      "desc": "## Product Overview\n\nThe Satlab DGPS is a professional GNSS positioning receiver intended for field teams that need reliable geospatial measurements across land-surveying, topographic mapping, as-built documentation, hydrographic work and UAV base-station applications. APSL lists an 800+ channel receiver architecture, integrated antenna, internal 4G connectivity and wireless communication through Bluetooth, Wi-Fi and NFC. The published specification set includes RTK, network RTK and static positioning modes, with GNS and RINEX data formats noted for static observations. For demanding field conditions, APSL lists IP67 dust-and-water protection, resistance to a 2 m pole drop and an operating-temperature range of -40°C to +65°C. The listed internal storage is 8 GB and battery capacity is 5,000 mAh, with operating time stated as up to 13 hours. These capabilities make the receiver suitable for professional survey workflows where dependable positioning, field durability and flexible data transfer are important. For the exact configuration, firmware, included accessories and current accuracy specification, Get in touch with us before ordering.\n\n## Applications\n\nSuitable applications depend on the selected configuration and project requirements. Get in touch with us for product selection guidance, technical datasheets and a quotation.",
+      "specs": [
+        [
+          "Channels",
+          "800+ (APSL listing)"
+        ],
+        [
+          "Positioning modes",
+          "RTK, Network RTK and static"
+        ],
+        [
+          "Protection",
+          "IP67; 2 m pole-drop resistance"
+        ],
+        [
+          "Operating temperature",
+          "-40°C to +65°C"
+        ],
+        [
+          "Storage",
+          "8 GB internal; supports 32 GB SD card"
+        ],
+        [
+          "Battery",
+          "5,000 mAh; up to 13 hours (listing)"
+        ],
+        [
+          "Connectivity",
+          "Internal 4G, Bluetooth, Wi-Fi, NFC, Mini USB"
+        ],
+        [
+          "Antenna",
+          "Integrated"
+        ]
+      ],
+      "price": null,
+      "unit": "Piece",
+      "featured": false,
+      "images": [
+        "/uploads/satlab-dgps.png"
+      ]
+    }
+  ]
+}
