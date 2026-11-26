@@ -1,5 +1,7 @@
 node_modules
 .env
 frontend/dist
-backend/uploads/*
-!backend/uploads/.gitkeep
+# Uploaded images are committed so the seeded catalogue works in production.
+# Render's free tier has an ephemeral disk, so anything uploaded through the
+# admin panel at runtime is lost on redeploy unless a persistent disk or an
+# object store (S3/Cloudinary) is added.
