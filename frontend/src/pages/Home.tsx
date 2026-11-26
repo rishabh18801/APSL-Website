@@ -65,7 +65,7 @@ function Marquee() {
             title={item.label}
             loading="lazy"
             decoding="async"
-            className="h-24 w-24 shrink-0 object-contain sm:h-28 sm:w-28 lg:h-32 lg:w-32"
+            className="h-24 w-24 shrink-0 cursor-pointer object-contain transition-transform duration-300 ease-out hover:scale-125 sm:h-28 sm:w-28 lg:h-32 lg:w-32"
           />
         ))}
       </div>

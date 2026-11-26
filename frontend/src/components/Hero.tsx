@@ -154,8 +154,8 @@ export function Hero() {
             <Link to="/products" className="btn-primary px-7 py-3.5 text-base">
               Explore products <ArrowRight className="h-4 w-4" />
             </Link>
-            <a href="#rental" className="btn-ghost px-7 py-3.5 text-base">
-              Rent equipment
+            <a href="#contact" className="btn-ghost px-7 py-3.5 text-base">
+              Get enquiry
             </a>
           </div>
         </motion.div>
