@@ -117,14 +117,17 @@ export function Hero() {
                 opacity: { duration: 1.1, ease: 'easeInOut' },
                 scale: { duration: 6, ease: 'easeOut' },
               }}
-              className="absolute inset-0 h-full w-full object-cover object-right lg:object-center"
+              className="absolute inset-0 h-full w-full object-cover object-right"
               aria-hidden={!isActive}
             />
           );
         })}
       </motion.div>
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-cream/60 via-transparent to-cream" />
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-cream/95 via-cream/45 to-transparent lg:via-cream/20" />
+      {/* Scrims that keep the headline readable over bright artwork. The
+          horizontal one is strong on the left, where the text sits. */}
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-cream/70 via-transparent to-cream" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-cream via-cream/85 to-cream/10 sm:via-cream/80 lg:via-cream/65 lg:to-transparent" />
+      <div className="pointer-events-none absolute inset-y-0 left-0 w-full bg-gradient-to-r from-cream to-transparent sm:w-2/3 lg:w-1/2" />
 
       <motion.div style={{ opacity: fade }} className="container-x relative z-10 pb-28 pt-6">
         <motion.div
