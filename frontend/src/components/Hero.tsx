@@ -104,7 +104,7 @@ export function Hero() {
               key={slide.src}
               src={slide.src}
               alt={slide.alt}
-              width={1790}
+              width={1789}
               height={890}
               loading={idx === 0 ? 'eager' : 'lazy'}
               decoding="async"
