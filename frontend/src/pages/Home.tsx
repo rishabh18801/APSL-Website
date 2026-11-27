@@ -33,13 +33,14 @@ const why = [
   { icon: Lightbulb, title: 'Innovative Technology', text: "Continuously evolving solutions for tomorrow's challenges." },
 ];
 
+// `slug` matches the section anchors on the Industries page.
 const industries = [
-  { title: 'Construction & Infrastructure', img: '/industries/construction.png' },
-  { title: 'Mining & Quarrying', img: '/industries/mining.png' },
-  { title: 'Oil, Gas & Energy', img: '/industries/energy.png' },
-  { title: 'Highways & Transport', img: '/industries/highways.png' },
-  { title: 'Surveying & Mapping', img: '/industries/mapping.png' },
-  { title: 'Water Resources & Environment', img: '/industries/water.png' },
+  { title: 'Construction & Infrastructure', img: '/industries/construction.png', slug: 'construction' },
+  { title: 'Mining & Quarrying', img: '/industries/mining.png', slug: 'mining' },
+  { title: 'Oil, Gas & Energy', img: '/industries/energy.png', slug: 'energy' },
+  { title: 'Highways & Transport', img: '/industries/highways.png', slug: 'highways' },
+  { title: 'Surveying & Mapping', img: '/industries/mapping.png', slug: 'mapping' },
+  { title: 'Water Resources & Environment', img: '/industries/water.png', slug: 'water' },
 ];
 
 function Marquee() {
@@ -265,10 +266,18 @@ function Industries() {
         title="Smart solutions for every industry"
         text="From city infrastructure to open-cast mines and river surveys, our instruments work where the data matters."
       />
+      <Reveal>
+        <Link to="/industries" className="btn-ghost mt-6">
+          Explore all industries <ArrowRight className="h-4 w-4" />
+        </Link>
+      </Reveal>
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {industries.map((ind, i) => (
           <Reveal key={ind.title} delay={(i % 3) * 0.07}>
-            <article className="group relative h-56 overflow-hidden rounded-3xl border border-sand shadow-sm transition duration-300 hover:-translate-y-1 hover:border-signal/50 hover:shadow-lg">
+            <Link
+              to={`/industries#${ind.slug}`}
+              className="group relative block h-56 overflow-hidden rounded-3xl border border-sand shadow-sm transition duration-300 hover:-translate-y-1 hover:border-signal/50 hover:shadow-lg"
+            >
               <img
                 src={ind.img}
                 alt=""
@@ -277,8 +286,11 @@ function Industries() {
                 className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/45 to-transparent" />
-              <h3 className="absolute inset-x-0 bottom-0 p-5 text-lg font-semibold text-white">{ind.title}</h3>
-            </article>
+              <h3 className="absolute inset-x-0 bottom-0 flex items-center gap-2 p-5 text-lg font-semibold text-white">
+                {ind.title}
+                <ArrowRight className="h-4 w-4 opacity-0 transition group-hover:translate-x-1 group-hover:opacity-100" />
+              </h3>
+            </Link>
           </Reveal>
         ))}
       </div>
