@@ -2,6 +2,7 @@ import { lazy, Suspense, useEffect } from 'react';
 import { Outlet, Route, Routes, useLocation } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
+import { CtaBand } from './components/CtaBand';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import { AuthProvider, RequireAdmin } from './admin/auth';
@@ -70,6 +71,7 @@ function PublicLayout() {
           <Outlet />
         </Suspense>
       </main>
+      <CtaBand />
       <Footer />
     </>
   );

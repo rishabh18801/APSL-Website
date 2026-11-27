@@ -1,13 +1,12 @@
 import { Link } from 'react-router-dom';
 import { motion, useScroll, useTransform, useReducedMotion } from 'framer-motion';
 import { useRef } from 'react';
-import { ArrowRight, BadgeCheck, Clock, Globe2, Headphones, Lightbulb, Mail, MapPin, Phone, Target, Users, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, Globe2, Phone, Users, CheckCircle2 } from 'lucide-react';
 import { WhatsAppIcon } from '../components/WhatsAppIcon';
 import { Hero } from '../components/Hero';
 import { Reveal, SectionHeading } from '../components/Reveal';
 import { ProductCard, ProductCardSkeleton } from '../components/ProductCard';
 import { CategoryIcon } from '../components/CategoryIcon';
-import { EnquiryForm } from '../components/EnquiryForm';
 import { api } from '../lib/api';
 import { useAsync } from '../lib/hooks';
 import { company, whatsappLink } from '../lib/company';
@@ -24,13 +23,6 @@ const solutions = [
   { title: 'Drone Solutions', text: 'Aerial imaging and data capture solutions for smarter decisions.', tags: ['Surveyaan', 'Photogrammetry', 'PPK'] },
   { title: 'Software Solutions', text: 'Powerful software for design, analysis and project management.', tags: ['AutoPlotter', 'AutoRoads', 'GIS'] },
   { title: 'Marine & Water Resources', text: 'Echo sounders, sonar and unmanned boats for hydrographic survey.', tags: ['Echo sounder', 'USV', 'Sonar'] },
-];
-
-const why = [
-  { icon: BadgeCheck, title: 'Quality Assurance', text: 'Committed to the highest standard in every product we provide.' },
-  { icon: Target, title: 'Reliable & Accurate', text: 'Precision you can trust and performance you can depend on.' },
-  { icon: Headphones, title: 'Expert Support', text: 'Our experts are with you at every step, before and after sales.' },
-  { icon: Lightbulb, title: 'Innovative Technology', text: "Continuously evolving solutions for tomorrow's challenges." },
 ];
 
 // `slug` matches the section anchors on the Industries page.
@@ -196,7 +188,7 @@ function Rental() {
           <div className="relative grid gap-10 lg:grid-cols-[1.4fr_1fr] lg:items-center">
             <div>
               <span className="eyebrow"><span className="h-px w-6 bg-signal" /> Equipment rental</span>
-              <h2 className="mt-4 text-3xl font-semibold sm:text-4xl">Need it for one project? Rent it.</h2>
+              <h2 className="mt-4 text-3xl font-semibold sm:text-4xl">Need it for one project?</h2>
               <p className="mt-4 max-w-xl text-mist">
                 Survey equipment rental across India, available with a trained operator. Total stations, GNSS and more, on daily or project terms.
               </p>
@@ -215,45 +207,6 @@ function Rental() {
           </div>
         </div>
       </Reveal>
-    </section>
-  );
-}
-
-function About() {
-  return (
-    <section id="about" className="container-x scroll-mt-16 py-14 sm:py-20">
-      <div className="grid gap-14 lg:grid-cols-2 lg:items-center">
-        <div>
-          <SectionHeading
-            eyebrow="About APSL Solutions"
-            title="Engineered solutions, delivered with trust"
-            text="At APSL Solutions, we combine innovation, quality and reliability to deliver the solutions that drive growth and create value for our clients. Our mission is to empower industries with the right technology, expert guidance and unwavering support."
-          />
-          <Reveal delay={0.1}>
-            <p className="mt-4 text-mist">
-              APSL Solutions was founded with a vision to bring world-class surveying, geospatial and engineering solutions to industries across
-              India. As the authorised distributor of Satlab Geosolutions AB (Sweden) and Surveyaan drones, we supply surveying instruments and
-              civil engineering software for land survey, estimation, water networks and geometric design.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              {company.partners.map((p) => (
-                <span key={p} className="glass rounded-full px-4 py-2 text-sm text-graphite">{p}</span>
-              ))}
-            </div>
-          </Reveal>
-        </div>
-        <div className="grid gap-4 sm:grid-cols-2">
-          {why.map((w, i) => (
-            <Reveal key={w.title} delay={i * 0.07}>
-              <div className="h-full rounded-3xl border border-sand bg-paper p-6 shadow-sm">
-                <w.icon className="h-7 w-7 text-signal" />
-                <h3 className="mt-4 text-lg font-semibold">{w.title}</h3>
-                <p className="mt-2 text-sm text-mist">{w.text}</p>
-              </div>
-            </Reveal>
-          ))}
-        </div>
-      </div>
     </section>
   );
 }
@@ -298,52 +251,6 @@ function Industries() {
   );
 }
 
-function Contact() {
-  return (
-    <section id="contact" className="relative scroll-mt-16 py-14 sm:py-20">
-      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-signal/40 to-transparent" />
-      <div className="container-x grid gap-12 lg:grid-cols-[1fr_1.3fr]">
-        <div>
-          <SectionHeading eyebrow="Contact" title="Let's talk about your project" text="Ask for a quote, a demo or rental availability. We usually respond the same working day." />
-          <Reveal delay={0.1}>
-            <ul className="mt-8 space-y-4">
-              <li>
-                <a href={company.phoneHref} className="glass flex items-center gap-4 rounded-2xl p-4 transition hover:border-signal/40">
-                  <span className="grid h-11 w-11 place-items-center rounded-xl bg-signal/10 text-signal"><Phone className="h-5 w-5" /></span>
-                  <span><span className="block text-xs uppercase tracking-wider text-mist">Call</span><span className="font-medium text-graphite">{company.phoneDisplay}</span></span>
-                </a>
-              </li>
-              <li>
-                <a href={company.whatsapp} target="_blank" rel="noreferrer" className="glass flex items-center gap-4 rounded-2xl p-4 transition hover:border-signal/40">
-                  <span className="grid h-11 w-11 place-items-center rounded-xl bg-[#25D366]/12 text-[#25D366]"><WhatsAppIcon className="h-5 w-5" /></span>
-                  <span><span className="block text-xs uppercase tracking-wider text-mist">WhatsApp</span><span className="font-medium text-graphite">Chat with our team</span></span>
-                </a>
-              </li>
-              <li>
-                <a href={company.emailHref} className="glass flex items-center gap-4 rounded-2xl p-4 transition hover:border-signal/40">
-                  <span className="grid h-11 w-11 place-items-center rounded-xl bg-signal/10 text-signal"><Mail className="h-5 w-5" /></span>
-                  <span className="min-w-0"><span className="block text-xs uppercase tracking-wider text-mist">Email</span><span className="block truncate font-medium text-graphite">{company.email}</span></span>
-                </a>
-              </li>
-              <li className="glass flex items-start gap-4 rounded-2xl p-4">
-                <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-signal/10 text-signal"><MapPin className="h-5 w-5" /></span>
-                <span><span className="block text-xs uppercase tracking-wider text-mist">Office</span><span className="font-medium text-graphite">{company.address.line1}, {company.address.line2}</span></span>
-              </li>
-              <li className="glass flex items-center gap-4 rounded-2xl p-4">
-                <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-signal/10 text-signal"><Clock className="h-5 w-5" /></span>
-                <span><span className="block text-xs uppercase tracking-wider text-mist">Working hours</span><span className="font-medium text-graphite">{company.hours}</span></span>
-              </li>
-            </ul>
-          </Reveal>
-        </div>
-        <Reveal delay={0.15} className="lg:self-end">
-          <EnquiryForm />
-        </Reveal>
-      </div>
-    </section>
-  );
-}
-
 export default function Home() {
   return (
     <>
@@ -367,10 +274,8 @@ export default function Home() {
       <Categories />
       <Featured />
       <Solutions />
-      <Rental />
       <Industries />
-      <About />
-      <Contact />
+      <Rental />
       <section className="container-x pb-10">
         <div className="flex flex-col items-center gap-2 text-center text-xs text-mist sm:flex-row sm:justify-center sm:gap-6">
           <span className="flex items-center gap-1.5"><Globe2 className="h-3.5 w-3.5" /> Exports worldwide</span>
