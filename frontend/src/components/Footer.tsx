@@ -7,10 +7,10 @@ import { Logo } from './Navbar';
 // Link groups mirror the navigation on the client's live site.
 const quickLinks = [
   { to: '/', label: 'Home' },
-  { to: '/about', label: 'About us' },
   { to: '/products', label: 'Products' },
   { to: '/industries', label: 'Industries' },
   { to: '/blog', label: 'Blog' },
+  { to: '/about', label: 'About us' },
   { to: '/#contact', label: 'Contact us' },
 ];
 
