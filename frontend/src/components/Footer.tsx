@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Linkedin, Facebook, Instagram, Youtube } from 'lucide-react';
 import { WhatsAppIcon } from './WhatsAppIcon';
 import { company } from '../lib/company';
 import { Logo } from './Navbar';
@@ -23,6 +23,13 @@ const productLinks = [
   { to: '/products?category=marine-water-resources', label: 'Marine & Water Resources' },
 ];
 
+const socialIcons = [
+  { key: 'linkedin', label: 'LinkedIn', Icon: Linkedin },
+  { key: 'facebook', label: 'Facebook', Icon: Facebook },
+  { key: 'instagram', label: 'Instagram', Icon: Instagram },
+  { key: 'youtube', label: 'YouTube', Icon: Youtube },
+] as const;
+
 const heading = 'mb-4 font-display text-xs font-bold uppercase tracking-[0.2em] text-signal';
 const link = 'text-sm text-white/65 transition hover:text-signal';
 
@@ -38,6 +45,25 @@ export function Footer() {
           <p className="max-w-xs text-sm leading-relaxed text-white/45">
             Authorised distributor of Satlab Geosolutions AB (Sweden) and Surveyaan drones in India.
           </p>
+          <ul className="flex gap-2 pt-1">
+            {socialIcons.map(({ key, label, Icon }) => {
+              const href = company.socials[key];
+              if (!href) return null;
+              return (
+                <li key={key}>
+                  <a
+                    href={href}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={`${company.short} on ${label}`}
+                    className="grid h-9 w-9 place-items-center rounded-full border border-white/15 bg-white/5 text-white/70 transition hover:border-signal hover:bg-signal hover:text-white"
+                  >
+                    <Icon className="h-4 w-4" />
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
         </div>
 
         <div>

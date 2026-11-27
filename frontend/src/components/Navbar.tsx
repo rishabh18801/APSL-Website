@@ -51,9 +51,13 @@ export function Navbar() {
   }, []);
 
   return (
-    <header className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${scrolled || open ? 'border-b border-sand bg-cream/85 backdrop-blur-xl' : ''}`}>
+    <header
+      className={`fixed inset-x-0 top-0 z-50 bg-ink-950 transition-all duration-300 ${
+        scrolled || open ? 'border-b border-white/10 shadow-lg shadow-ink-950/30' : ''
+      }`}
+    >
       <nav className="container-x flex h-14 items-center justify-between lg:h-16">
-        <Logo />
+        <Logo dark />
         <ul className="hidden items-center gap-1 md:flex">
           {links.map((l) => (
             <li key={l.to}>
@@ -61,7 +65,9 @@ export function Navbar() {
                 to={l.to}
                 end
                 className={({ isActive }) =>
-                  `rounded-full px-4 py-2 text-sm font-medium transition hover:text-signal ${isActive && !l.to.includes('#') ? 'text-graphite' : 'text-mist'}`
+                  `rounded-full px-4 py-2 text-sm font-medium transition hover:text-signal ${
+                    isActive && !l.to.includes('#') ? 'text-signal' : 'text-white/70'
+                  }`
                 }
               >
                 {l.label}
@@ -73,10 +79,14 @@ export function Navbar() {
           <Link to="/#contact" className="btn-primary hidden sm:inline-flex">
             Get a quote
           </Link>
-          <a href={company.phoneHref} className="btn-ghost hidden lg:inline-flex" aria-label={`Call ${company.phoneDisplay}`}>
+          <a
+            href={company.phoneHref}
+            className="btn hidden border border-white/20 bg-white/5 text-white transition hover:border-signal hover:text-signal lg:inline-flex"
+            aria-label={`Call ${company.phoneDisplay}`}
+          >
             <Phone className="h-4 w-4" /> Call us
           </a>
-          <button className="rounded-full p-2 text-graphite md:hidden" onClick={() => setOpen((o) => !o)} aria-label={open ? 'Close menu' : 'Open menu'} aria-expanded={open}>
+          <button className="rounded-full p-2 text-white md:hidden" onClick={() => setOpen((o) => !o)} aria-label={open ? 'Close menu' : 'Open menu'} aria-expanded={open}>
             {open ? <X /> : <Menu />}
           </button>
         </div>
@@ -91,7 +101,7 @@ export function Navbar() {
           >
             {links.map((l) => (
               <li key={l.to}>
-                <Link to={l.to} className="block border-b border-sand py-4 font-display text-lg text-graphite">
+                <Link to={l.to} className="block border-b border-white/10 py-4 font-display text-lg text-white/85">
                   {l.label}
                 </Link>
               </li>

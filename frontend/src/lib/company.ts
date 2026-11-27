@@ -25,6 +25,14 @@ export const company = {
   ceo: 'Pankaj Kr. Malik',
   partners: ['Satlab Geosolutions AB (Sweden)', 'Surveyaan Drones'],
   // Headline figures shown on the live site's home and about pages.
+  // Social profiles shown in the footer. Paste the full URL to switch an
+  // icon on; leave a value empty and that icon is not rendered.
+  socials: {
+    linkedin: '',
+    facebook: '',
+    instagram: '',
+    youtube: '',
+  },
   // Ordered smallest to largest.
   stats: [
     { value: '10+', label: 'Years of Experience' },
