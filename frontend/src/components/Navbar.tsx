@@ -18,15 +18,16 @@ const links = [
 export function Logo({ dark = false }: { dark?: boolean } = {}) {
   return (
     <Link to="/" className="flex items-center gap-3" aria-label={`${company.name} home`}>
-      {/* The brand mark has black lettering, so it sits directly on the light
-          surface with no chip behind it. */}
+      {/* Two files: the original black-lettered mark for light surfaces, and a
+          white-lettered version (orange swoosh kept) for dark ones. A CSS
+          invert would flatten the swoosh to white too. */}
       <span className="flex items-center">
         <img
-          src="/apsl-logo.png"
+          src={dark ? '/apsl-logo-dark.png' : '/apsl-logo.png'}
           alt={`${company.short} logo`}
           width={490}
           height={300}
-          className={`h-9 w-auto lg:h-10 ${dark ? 'brightness-0 invert' : ''}`}
+          className="h-9 w-auto lg:h-10"
         />
       </span>
       <span className="hidden leading-none sm:block">
