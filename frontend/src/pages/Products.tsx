@@ -61,7 +61,7 @@ export default function Products() {
             </div>
             <div className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1 [scrollbar-width:none]">
               <button onClick={() => pick('')} className={`shrink-0 rounded-full px-4 py-2 text-sm transition ${!category ? 'bg-signal font-semibold text-white' : 'border border-sand bg-paper text-mist hover:border-signal/50 hover:text-signal'}`}>
-                All
+                All categories
               </button>
               {categories.data?.map((c) => (
                 <button
