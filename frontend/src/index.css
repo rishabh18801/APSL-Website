@@ -13,15 +13,10 @@
        into a scroll container, so `sticky` and scroll animations still work. */
     overflow-x: clip;
   }
-  /* Tailwind sizes in rem, so stepping the root font size down scales type and
-     spacing together. Phones keep 16px for readability; desktops render ~12%
-     smaller, which also counters Windows 125% display scaling. */
-  @media (min-width: 1024px) {
-    html { font-size: 15px; }
-  }
-  @media (min-width: 1536px) {
-    html { font-size: 14px; }
-  }
+  /* One root size at every width. It used to step down at 1024px and 1536px,
+     but browser zoom changes the CSS viewport width, so zooming out crossed a
+     breakpoint and shrank the content a second time on top of the zoom. */
+  html { font-size: 15px; }
   body {
     @apply bg-cream font-sans text-copy antialiased;
     max-width: 100%;
@@ -43,7 +38,7 @@
 }
 
 @layer components {
-  .container-x { @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8; }
+  .container-x { @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 2xl:max-w-[88rem]; }
   .btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition duration-200 disabled:cursor-not-allowed disabled:opacity-50; }
   .btn-primary { @apply btn bg-signal text-white shadow-[0_8px_24px_-10px_rgba(245,102,10,0.8)] hover:bg-signal-600; }
   .btn-ghost { @apply btn border border-sand bg-paper text-graphite shadow-sm hover:border-signal/50 hover:text-signal; }
