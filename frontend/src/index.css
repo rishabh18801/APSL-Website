@@ -13,10 +13,18 @@
        into a scroll container, so `sticky` and scroll animations still work. */
     overflow-x: clip;
   }
-  /* One root size at every width. It used to step down at 1024px and 1536px,
-     but browser zoom changes the CSS viewport width, so zooming out crossed a
-     breakpoint and shrank the content a second time on top of the zoom. */
+  /* Phones and small tablets: a fixed, readable root size. */
   html { font-size: 15px; }
+
+  /* Desktop: the root size is proportional to the viewport width, so the page
+     keeps the same on-screen size at any browser zoom level - zooming out
+     widens the CSS viewport, 1vw grows with it, and the two cancel out.
+     Tailwind sizes in rem, so type and spacing scale together.
+     The clamp keeps it sane at extreme zoom: below 12px or above 30px the
+     page starts scaling with zoom again rather than becoming unreadable. */
+  @media (min-width: 1024px) {
+    html { font-size: clamp(12px, 1.06vw, 30px); }
+  }
   body {
     @apply bg-cream font-sans text-copy antialiased;
     max-width: 100%;
