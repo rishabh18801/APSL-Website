@@ -158,9 +158,9 @@ export function Hero() {
             <Link to="/products" className="btn-primary px-7 py-3.5 text-base">
               Explore products <ArrowRight className="h-4 w-4" />
             </Link>
-            <a href="#contact" className="btn border border-white/25 bg-white/5 px-7 py-3.5 text-base text-white transition hover:border-signal hover:text-signal">
+            <Link to="/contact" className="btn border border-white/25 bg-white/5 px-7 py-3.5 text-base text-white transition hover:border-signal hover:text-signal">
               Get enquiry
-            </a>
+            </Link>
           </div>
         </motion.div>
       </motion.div>

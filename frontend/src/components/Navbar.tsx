@@ -12,7 +12,7 @@ const links = [
   { to: '/industries', label: 'Industries' },
   { to: '/blog', label: 'Blog' },
   { to: '/about', label: 'About us' },
-  { to: '/#contact', label: 'Contact us' },
+  { to: '/contact', label: 'Contact us' },
 ];
 
 export function Logo({ dark = false }: { dark?: boolean } = {}) {
@@ -76,7 +76,7 @@ export function Navbar() {
           ))}
         </ul>
         <div className="flex items-center gap-2">
-          <Link to="/#contact" className="btn-primary hidden sm:inline-flex">
+          <Link to="/contact" className="btn-primary hidden sm:inline-flex">
             Get a quote
           </Link>
           <a

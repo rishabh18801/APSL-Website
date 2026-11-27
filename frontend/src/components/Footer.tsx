@@ -11,7 +11,7 @@ const quickLinks = [
   { to: '/industries', label: 'Industries' },
   { to: '/blog', label: 'Blog' },
   { to: '/about', label: 'About us' },
-  { to: '/#contact', label: 'Contact us' },
+  { to: '/contact', label: 'Contact us' },
 ];
 
 const productLinks = [

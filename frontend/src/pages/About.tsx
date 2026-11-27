@@ -184,7 +184,7 @@ export default function About() {
             <p className="mt-2 text-white/85">Partner with APSL Solutions for reliable technology and expert support.</p>
           </div>
           <Link
-            to="/#contact"
+            to="/contact"
             className="btn shrink-0 bg-ink-950 px-7 py-3.5 text-base text-white hover:bg-ink-900"
           >
             Get in touch <ArrowRight className="h-4 w-4" />

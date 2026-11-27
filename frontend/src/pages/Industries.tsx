@@ -241,7 +241,7 @@ export default function Industries() {
                 operator if you need one.
               </p>
               <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-                <Link to="/#contact" className="btn-primary px-7 py-3.5 text-base">
+                <Link to="/contact" className="btn-primary px-7 py-3.5 text-base">
                   Get enquiry <ArrowRight className="h-4 w-4" />
                 </Link>
                 <a
