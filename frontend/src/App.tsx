@@ -16,6 +16,7 @@ const Enquiries = lazy(() => import('./admin/Enquiries'));
 const Blog = lazy(() => import('./pages/Blog'));
 const BlogPost = lazy(() => import('./pages/BlogPost'));
 const IndustriesPage = lazy(() => import('./pages/Industries'));
+const AboutPage = lazy(() => import('./pages/About'));
 const BlogList = lazy(() => import('./admin/BlogList'));
 const BlogForm = lazy(() => import('./admin/BlogForm'));
 const HeroSlides = lazy(() => import('./admin/HeroSlides'));
@@ -86,6 +87,7 @@ export default function App() {
             <Route path="blog" element={<Blog />} />
             <Route path="blog/:slug" element={<BlogPost />} />
             <Route path="industries" element={<IndustriesPage />} />
+            <Route path="about" element={<AboutPage />} />
             <Route path="*" element={<NotFound />} />
           </Route>
           <Route element={<AuthProvider><Outlet /></AuthProvider>}>

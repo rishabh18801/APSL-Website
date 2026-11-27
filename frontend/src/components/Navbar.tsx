@@ -8,14 +8,14 @@ import { company } from '../lib/company';
 // Industries / Contact us).
 const links = [
   { to: '/', label: 'Home' },
-  { to: '/#about', label: 'About us' },
+  { to: '/about', label: 'About us' },
   { to: '/products', label: 'Products' },
   { to: '/industries', label: 'Industries' },
   { to: '/blog', label: 'Blog' },
   { to: '/#contact', label: 'Contact us' },
 ];
 
-export function Logo() {
+export function Logo({ dark = false }: { dark?: boolean } = {}) {
   return (
     <Link to="/" className="flex items-center gap-3" aria-label={`${company.name} home`}>
       {/* The brand mark has black lettering, so it sits directly on the light
@@ -26,12 +26,12 @@ export function Logo() {
           alt={`${company.short} logo`}
           width={490}
           height={300}
-          className="h-9 w-auto lg:h-10"
+          className={`h-9 w-auto lg:h-10 ${dark ? 'brightness-0 invert' : ''}`}
         />
       </span>
       <span className="hidden leading-none sm:block">
-        <span className="block text-[11px] font-medium uppercase tracking-[0.25em] text-mist">Solutions LLP</span>
-        <span className="mt-1 block font-display text-[13px] font-semibold tracking-tight text-graphite">Survey &amp; Geospatial</span>
+        <span className={`block text-[11px] font-medium uppercase tracking-[0.25em] ${dark ? 'text-white/55' : 'text-mist'}`}>Solutions LLP</span>
+        <span className={`mt-1 block font-display text-[13px] font-semibold tracking-tight ${dark ? 'text-white' : 'text-graphite'}`}>Survey &amp; Geospatial</span>
       </span>
     </Link>
   );
