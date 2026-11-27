@@ -16,14 +16,14 @@
   /* Phones and small tablets: a fixed, readable root size. */
   html { font-size: 15px; }
 
-  /* Desktop: the root size is proportional to the viewport width, so the page
-     keeps the same on-screen size at any browser zoom level - zooming out
-     widens the CSS viewport, 1vw grows with it, and the two cancel out.
-     Tailwind sizes in rem, so type and spacing scale together.
-     The clamp keeps it sane at extreme zoom: below 12px or above 30px the
-     page starts scaling with zoom again rather than becoming unreadable. */
+  /* Desktop: the root size is purely proportional to the viewport width, with
+     no clamp, so the rendered page is identical at every browser zoom level.
+     Zooming changes the CSS viewport width; 1vw moves with it and the two
+     cancel out exactly. Tailwind sizes in rem, so type, spacing and the
+     container all scale together.
+     1.042vw reproduces the 15px design size at a ~1440px viewport. */
   @media (min-width: 1024px) {
-    html { font-size: clamp(12px, 1.06vw, 30px); }
+    html { font-size: 1.042vw; }
   }
   body {
     @apply bg-cream font-sans text-copy antialiased;
