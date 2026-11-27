@@ -31,8 +31,8 @@ export function Logo({ dark = false }: { dark?: boolean } = {}) {
         />
       </span>
       <span className="leading-none">
-        <span className={`block text-[11px] font-medium uppercase tracking-[0.25em] ${dark ? 'text-white/55' : 'text-mist'}`}>Solutions LLP</span>
-        <span className={`mt-1 block font-display text-[13px] font-semibold tracking-tight ${dark ? 'text-white' : 'text-graphite'}`}>Survey &amp; Geospatial</span>
+        <span className={`block text-[0.733rem] font-medium uppercase tracking-[0.25em] ${dark ? 'text-white/55' : 'text-mist'}`}>Solutions LLP</span>
+        <span className={`mt-1 block font-display text-[0.867rem] font-semibold tracking-tight ${dark ? 'text-white' : 'text-graphite'}`}>Survey &amp; Geospatial</span>
       </span>
     </Link>
   );

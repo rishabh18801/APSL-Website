@@ -67,7 +67,7 @@ export function ProductCard({ product }: { product: Product }) {
               onError={(e) => ((e.currentTarget as HTMLImageElement).src = '/placeholder.svg')}
             />
             {product.featured && (
-              <span className="absolute left-3 top-3 rounded-full bg-beam px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-graphite">Featured</span>
+              <span className="absolute left-3 top-3 rounded-full bg-beam px-2.5 py-1 text-[0.667rem] font-bold uppercase tracking-wider text-graphite">Featured</span>
             )}
           </div>
           <div className="flex flex-1 flex-col gap-2 p-5" style={tilt ? { transform: 'translateZ(30px)' } : undefined}>

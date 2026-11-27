@@ -90,7 +90,7 @@ function Categories() {
             <Reveal key={c.id} delay={i * 0.05}>
               <Link
                 to={`/products?category=${c.slug}`}
-                className="group relative flex h-full min-h-[220px] flex-col overflow-hidden rounded-3xl border border-sand bg-paper p-6 shadow-sm transition hover:-translate-y-1 hover:border-signal/50 hover:shadow-lg"
+                className="group relative flex h-full min-h-[14.667rem] flex-col overflow-hidden rounded-3xl border border-sand bg-paper p-6 shadow-sm transition hover:-translate-y-1 hover:border-signal/50 hover:shadow-lg"
               >
                 {bg && (
                   <>
