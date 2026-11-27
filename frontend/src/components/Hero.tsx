@@ -95,7 +95,9 @@ export function Hero() {
   }, [reduce, slides.length]);
 
   return (
-    <section className="relative flex min-h-[100svh] items-center overflow-hidden bg-ink-950 pt-16">
+    <section
+      className="relative flex min-h-[100svh] items-center overflow-hidden bg-ink-950 pt-16 [@media(hover:hover)and(pointer:fine)]:min-h-[42rem]"
+    >
       <motion.div style={{ y }} className="absolute inset-0">
         {slides.map((slide, idx) => {
           const isActive = idx === index;

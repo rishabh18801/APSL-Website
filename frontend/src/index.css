@@ -50,7 +50,10 @@
 }
 
 @layer components {
-  .container-x { @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 2xl:max-w-[88rem]; }
+  /* No width-breakpoint cap here: Tailwind breakpoints key off viewport
+     width, which zoom changes, so a 2xl override made the container jump
+     width between zoom levels. max-w-7xl is in rem, so it rides the lock. */
+  .container-x { @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8; }
   .btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition duration-200 disabled:cursor-not-allowed disabled:opacity-50; }
   .btn-primary { @apply btn bg-signal text-white shadow-[0_8px_24px_-10px_rgba(245,102,10,0.8)] hover:bg-signal-600; }
   .btn-ghost { @apply btn border border-sand bg-paper text-graphite shadow-sm hover:border-signal/50 hover:text-signal; }
