@@ -22,7 +22,11 @@
      cancel out exactly. Tailwind sizes in rem, so type, spacing and the
      container all scale together.
      1.042vw reproduces the 15px design size at a ~1440px viewport. */
-  @media (min-width: 1024px) {
+  /* Gate on pointer type, NOT viewport width: zoom changes the CSS viewport
+     width, so a width breakpoint switches the lock off at high zoom (at 200%
+     on a 1920 screen the viewport reports 960px). Pointer type is unaffected
+     by zoom, so this stays on for mice and off for touch devices. */
+  @media (hover: hover) and (pointer: fine) {
     html { font-size: 1.042vw; }
   }
   body {
