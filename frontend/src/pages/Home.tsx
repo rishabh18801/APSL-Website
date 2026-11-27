@@ -187,8 +187,7 @@ function Rental() {
           <div className="absolute -right-24 -top-24 h-72 w-72 rounded-full bg-signal/20 blur-3xl" />
           <div className="relative grid gap-10 lg:grid-cols-[1.4fr_1fr] lg:items-center">
             <div>
-              <span className="eyebrow"><span className="h-px w-6 bg-signal" /> Equipment rental</span>
-              <h2 className="mt-4 text-3xl font-semibold sm:text-4xl">Need it for one project?</h2>
+              <h2 className="text-3xl font-semibold sm:text-4xl">Need it for one project?</h2>
               <p className="mt-4 max-w-xl text-mist">
                 Survey equipment rental across India, available with a trained operator. Total stations, GNSS and more, on daily or project terms.
               </p>
